@@ -1,0 +1,48 @@
+:root {
+	color-scheme: light dark;
+	background: #cbcbcb;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #e7e7e7;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#blocks {
+	width: 98vw;
+	height: 98vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.block {
+	height: 10vw;
+	width: 10vw;
+	font-size: 4em;
+	font-weight: bold;
+	margin-right: 1.5vw;
+	margin-left: 1.5vw;
+	border: 0.5vw solid #e7e7e7;
+	border-radius: 7vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 1vw 1vw 2vw #888888;
+}
+
+#day {
+	background: #155d36;
+}
+
+#hour {
+	background: #e5ceb3;
+}
+
+#minute {
+	background: #eea61d;
+}
+
+#second {
+	background: #aa1d2f;
+}

@@ -4,12 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta nsame="color-scheme" content="light dark">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>New Year Countdown</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/StyleSheet.css" rel="stylesheet">
 </head>
 
 <body>
-    <script type="module" src="app.js"></script>
+    <script src="app.js" type="module"></script>
+    <div id="blocks">
+        <div class="block" id="day">364d</div>
+        <div class="block" id="hour">23h</div>
+        <div class="block" id="minute">59m</div>
+        <div class="block" id="second">59s</div>
+    </div>
 </body>
 
 </html>
