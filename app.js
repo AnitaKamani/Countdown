@@ -19,15 +19,15 @@ while (true) {
 	p /= 60;
 	var left_seconds = Math.floor(diffrence % p);
 
-	console.log(`${left_days} days left `);
-	console.log(`${left_hours} hours left`);
-	console.log(`${left_minutes} minutes left`);
-	console.log(`${left_seconds} seconds left`);
+	// console.log(`${left_days} days left `);
+	// console.log(`${left_hours} hours left`);
+	// console.log(`${left_minutes} minutes left`);
+	// console.log(`${left_seconds} seconds left`);
 
-	document.getElementById("day").innerHTML = left_days;
-	document.getElementById("hour").innerHTML = left_hours;
-	document.getElementById("minute").innerHTML = left_minutes;
-	document.getElementById("second").innerHTML = left_seconds;
+	document.getElementById("day").innerHTML = left_days + "d";
+	document.getElementById("hour").innerHTML = left_hours + "h";
+	document.getElementById("minute").innerHTML = left_minutes + "m";
+	document.getElementById("second").innerHTML = left_seconds + "s";
 
 	// reload timeout
 	await new Promise((r) => setTimeout(r, 1000));
