@@ -16,11 +16,17 @@ body {
 	align-items: center;
 	justify-content: center;
 }
+@media (max-width: 600px) {
+	#blocks {
+		flex-direction: column;
+	}
+}
+
 .block {
 	height: 10vw;
 	width: 10vw;
-	font-size: 4em;
-	font-weight: bold;
+	font-size: 3.5vw;
+	/* font-weight: bold; */
 	margin-right: 1.5vw;
 	margin-left: 1.5vw;
 	border: 0.5vw solid #e7e7e7;
@@ -30,7 +36,17 @@ body {
 	justify-content: center;
 	box-shadow: 1vw 1vw 2vw #888888;
 }
-
+@media (max-width: 600px) {
+	.block {
+		margin-top: 1.5vw;
+		margin-bottom: 1.5vw;
+		height: 30vw;
+		width: 30vw;
+		border: 1.3vw solid #e7e7e7;
+		border-radius: 15vw;
+		font-size: 8vw;
+	}
+}
 #day {
 	background: #155d36;
 }
