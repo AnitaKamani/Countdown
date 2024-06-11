@@ -3,9 +3,9 @@ while (true) {
 	var now = new Date();
 
 	// set the target date (next year's eve)
-	var target_year = now.getFullYear() + 1;
-	var target_month = 0; // Januar
-	var target_day = 1;
+	var target_year = 2024//now.getFullYear() + 1;
+	var target_month = 8//0; // Januar
+	var target_day = 1//1;
 	var target = new Date(target_year, target_month, target_day);
 
 	var diffrence = Math.floor((target - now) / 1000);
